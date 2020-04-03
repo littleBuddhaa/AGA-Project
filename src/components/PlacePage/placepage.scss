@@ -53,6 +53,10 @@
 .interaction-circle:active {
   transform: scale(75%);
 }
+.interaction-circle:hover{
+height:21vh;
+
+}
 
 .stars-container {
   justify-self: end;

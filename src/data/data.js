@@ -2,7 +2,8 @@ export default {
   places: [
     {
       id: 0,
-      text: "Level 1: Playarea",
+      
+      text: "Playground",
       icon: "/img/places_icons/Playground_icon.svg",
       requiredStars: 0,
       image: "/places_backgrounds/Playground.png",
@@ -11,14 +12,14 @@ export default {
       interactions: [
         {
           id: 1,
-          text: "Leonie & Jan",
+          text: "Rishi & Sheena",
           question: [
-            "Can you tell what Leonie and Jan are feeling?",
+            "Can you tell what Rishi and Sheena are feeling?",
             "Select all the matching words"
           ],
           image: "/img/interactions/Slide_happy",
-          coordinates: [39, 65],
-          width: "30vw",
+          coordinates: [42, 65],
+          width: "27vw",
           requiredStars: 0,
           answers: [
             {
@@ -90,7 +91,7 @@ export default {
         },
         {
           id: 12,
-          text: "Reuben & Christina",
+          text: "Reuben & Sonal",
           question: [
             "What can you say about this situation?",
             "Select all the matching emotions"
@@ -169,9 +170,9 @@ export default {
         },
         {
           id: 16,
-          text: "Victor",
+          text: "Aashu",
           question: [
-            "Can you tell how Victor is feeling?",
+            "Can you tell how Ashu is feeling?",
             "Select all the matching emotions"
           ],
           image: "/img/interactions/Slide",
@@ -248,14 +249,14 @@ export default {
         },
         {
           id: 82,
-          text: "Oli & Jack",
+          text: "Sumit & Eshan",
           question: [
-            "Can you tell how Jack is feeling?",
+            "Can you tell how Eshan is feeling?",
             "Select all the matching emotions"
           ],
           image: "/img/interactions/Boys_ball",
           width: "15vw",
-          coordinates: [41, 37],
+          coordinates: [63,24],
           requiredStars: 3,
           answers: [
             {
@@ -327,14 +328,14 @@ export default {
         },
         {
           id: 93,
-          text: "Gregor",
+          text: "Ravi",
           question: [
-            "Can you tell what Gregor is feeling?",
+            "Can you tell what Ravi is feeling?",
             "Select all the matching emotions"
           ],
           image: "/img/interactions/Isolation",
           width: "15vw",
-          coordinates: [14, 53],
+          coordinates: [23, 43],
           requiredStars: 3,
           answers: [
             {
@@ -397,7 +398,7 @@ export default {
     },
     {
       id: 23,
-      text: "Level 2: School",
+      text: "School",
       requiredStars: 2,
       icon: "/img/places_icons/School_icon.svg",
       image: "/places_backgrounds/School.png",
@@ -462,7 +463,7 @@ export default {
             "Can you tell what the kids are feeling?",
             "Select all the matching answers"
           ],
-          coordinates: ["30", "51"],
+          coordinates: [23,47],
           width: "18vw",
           answers: [
             {
@@ -575,7 +576,7 @@ export default {
     },
     {
       id: 35,
-      text: "Level 3: Shopping Mall",
+      text: "Airport",
       icon: "/img/places_icons/Airport_icon.svg",
       requiredStars: 6,
       image: "/places_backgrounds/Airport.png",

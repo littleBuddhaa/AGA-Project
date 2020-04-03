@@ -14,6 +14,7 @@
 }
 .speech-box {
   background: linear-gradient(to bottom, #69dfc7 0%, #69dfc7 20%, #69dfc7 80%, #69dfc7 100%);
+  // background: linear-gradient(to bottom, #fef5b1 0%, #fdec6e 20%, #fcde09 80%, #e1c503 100%);
   border: solid 2px white;
   border-radius: 2em;
   min-width: 25rem;
@@ -24,7 +25,7 @@
   p {
     text-align: center;
     margin: 0;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Amatic SC", cursive;
     font-weight: bold;
     color: #0a2e27;
     font-size: 1.5rem;
