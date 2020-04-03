@@ -16,8 +16,8 @@ const MapPage = ({ completed }) => {
       newMessage = "Welcome to Moodigo ";
     } else if (next.requiredStars) {
 
-      newMessage = `You're doing great`;
-      // newMessage = `You're doing great, you only need ${next.requiredStars - completed.length} more stars to unlock the ${next.text}`;
+      // newMessage = `You're doing great`;
+      newMessage = `You're doing great, you only need ${next.requiredStars - completed.length} more stars to unlock the ${next.text}`;
     } else if (completed.length >= findTotalStars()) {
       newMessage = "Congratulations, you have completed the game!";
     } else {
