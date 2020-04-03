@@ -2,12 +2,12 @@ export default {
   places: [
     {
       id: 0,
-      text: "Playground",
+      text: "Level 1: Playarea",
       icon: "/img/places_icons/Playground_icon.svg",
       requiredStars: 0,
       image: "/places_backgrounds/Playground.png",
-      width: "20vw",
-      coordinates: [42, 69],
+      width: "11vw",
+      coordinates: [22, 70],
       interactions: [
         {
           id: 1,
@@ -397,12 +397,12 @@ export default {
     },
     {
       id: 23,
-      text: "School",
+      text: "Level 2: School",
       requiredStars: 2,
       icon: "/img/places_icons/School_icon.svg",
       image: "/places_backgrounds/School.png",
-      coordinates: [13, 44],
-      width: "15vw",
+      coordinates: [33, 12],
+      width: "12vw",
       interactions: [
         {
           id: 24,
@@ -575,12 +575,12 @@ export default {
     },
     {
       id: 35,
-      text: "Airport",
+      text: "Level 3: Shopping Mall",
       icon: "/img/places_icons/Airport_icon.svg",
       requiredStars: 6,
       image: "/places_backgrounds/Airport.png",
-      coordinates: [48, 27],
-      width: "25vw",
+      coordinates: [64, 68],
+      width: "15vw",
       interactions: [
         {
           id: 36,
