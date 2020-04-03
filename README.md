@@ -25,7 +25,7 @@ npm install
 3. Start local server
 
 ```
-> npm start
+npm start
 ```
 
 4. Open  **localhost:3000**
