@@ -1,0 +1,21 @@
+.background-home {
+  background-image: url(/img/Background_Home.svg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-logo {
+  width: 60vw;
+  padding-bottom: 1%;
+}

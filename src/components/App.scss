@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Coming+Soon|Fredoka+One|Montserrat&display=swap);
+// ____________________________COLORS____________________________
+
+$turqouise: #69dfc7;
+$blue: #3c91e6;
+$yellow: #fde74c;
+$orange: #f69a5d;
+$purple: #5f59d0;
+$green: #7dd764;
+
+// ____________________________FONTS____________________________
+
+$speeches: "Coming Soon", cursive;
+$buttons: "Fredoka One", cursive;
+$titles: "Amatic SC", cursive;
+$answers: "Montserrat", sans-serif;
+
+// ____________________________Basics____________________________
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.App {
+  position: relative;
+}
+
+// ____________________________Layout____________________________
+
+.hud {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2%;
+}
+
+// ____________________________Text, Links____________________________
+
+a {
+  text-decoration: none;
+}
+
+// ____________________________images____________________________
+
+// .icon-image {
+//   width: 140px;
+// }
+// ____________________________Buttons & Signposts____________________________
+
+@mixin buttons($bg-color, $shadow-color) {
+  border: 3px solid #fff;
+  background: $bg-color;
+  box-shadow: 0 -2px 0 3px $shadow-color inset, 0 5px 5px rgba(65, 8, 8, 0.17), 0 15px rgba(255, 255, 255, 0.25) inset;
+  display: inline-block;
+  color: #f8feff;
+  text-align: center;
+  font-family: "Fredoka One";
+  text-decoration: none;
+}
+
+.btn-help {
+  @include buttons(#fce01a, #f1d403);
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  line-height: 3.7rem;
+  font-size: 3rem;
+  margin: 2% 0 0 90%;
+  cursor: pointer;
+}
+
+.btn-start {
+  @include buttons(#f4863d, #f2721d);
+  border-radius: 20px;
+  height: 3rem;
+  width: 15rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.btn-newstart {
+  @include buttons(#8f8aef, #605ad7);
+  border-radius: 20px;
+  height: 3rem;
+  width: 15rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-back, .btn-play {
+  @include buttons($purple, #726ceb);
+  border-radius: 20px;
+  height: 3rem;
+  width: 9rem;
+  line-height: 2.5rem;
+  font-size: 1.4rem;
+  margin: 2%;
+  justify-self: start;
+  cursor: pointer;
+}
+
+
+.btn-back p,
+.btn-start p,
+.btn-help p {
+  margin: 0;
+}
+
+.btn-back:active,
+.btn-start:active,
+.btn-help:active {
+  filter: brightness(120%);
+  transform: scale(0.95);
+}
+
+@mixin signpost {
+  display: inline-block;
+  color: #f8feff;
+  text-align: center;
+  font-family: "Fredoka One";
+  background: #186fc6;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 -2px 0 3px #3c91e6 inset, 0 2px 2px rgba(60, 145, 230, 0.17), 0 10px rgba(255, 255, 255, 0.25) inset;
+}
+
+.signpost {
+  @include signpost;
+  min-height: 3rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  padding: 1% 5%;
+  margin: 2%;
+}
+
+@media only screen and (max-height: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
