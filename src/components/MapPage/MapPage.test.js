@@ -73,5 +73,5 @@ test("Click on locked place has no effect", () => {
   );
 
   fireEvent.click(getByText(firstLocked.text)); // Simulates Click on locked place
-  getByText("AUTSERA LAND"); // Checks if user still on the map page
+  getByText("WONDER LAND"); // Checks if user still on the map page
 })

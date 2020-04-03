@@ -13,7 +13,7 @@ const HomePage = ({ history, setCompleted, completed }) => {
     >
       {/* <RouterLink className="btn-help" to="/help" label="?" /> */}
       <div className="container-home">
-        <img className="img-logo" src={autseraImg} alt="Autsera Logo" />
+        <img className="img-logo" src={autseraImg} alt="Game Logo" />
         {completed.length?<RouterLink className="btn-start" to="/map" label="Continue Playing" />:null}
         
         <button  className="btn-newstart" onClick={() => {
@@ -22,7 +22,7 @@ const HomePage = ({ history, setCompleted, completed }) => {
         }} >New Game</button>
       </div>
       <HelperAvatar
-        speechText={<RouterLink to="/help" label="Hi, welcome to Autsera. Click here if you need help" />}
+        speechText={<RouterLink to="/" label="Hi, welcome to Autsera. " />}
         timeOut={3600000}
       />
     </div>

@@ -21,9 +21,10 @@ const InteractionCircle = ({
   const changeMessageIfLocked = () => {
     if (!isUnlocked)
       setspeechText(
-        `This Interaction is locked, but you only need 
-        ${interaction.requiredStars -
-          localStarsAchieved} more stars to unlock it!`
+        "This level is under Construction, we will be back soon !!!"
+        // `This Interaction is locked, but you only need 
+        // ${interaction.requiredStars -
+        //   localStarsAchieved} more stars to unlock it!`
       );
   };
 

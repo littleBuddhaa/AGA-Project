@@ -13,9 +13,9 @@ const MapPage = ({ completed }) => {
     let next = findNextLevel(completed);
     let newMessage = "";
     if (completed.length === 0) {
-      newMessage = "Welcome to Autsera Land";
+      newMessage = "Welcome to Wonder Land";
     } else if (next.requiredStars) {
-      newMessage = `You're doing great, you only need ${next.requiredStars - completed.length} more stars to unlock the ${next.text}`;
+      newMessage = `You're doing great`;
     } else if (completed.length >= findTotalStars()) {
       newMessage = "Congratulations, you have completed the game!";
     } else {
@@ -33,7 +33,7 @@ const MapPage = ({ completed }) => {
     >
       <div className="hud">
         <RouterLink className="btn-back" to="/" label="Go Back" />
-        <span className="signpost">AUTSERA LAND</span>
+        <span className="signpost">WONDER LAND</span>
       </div>
 
       {data.places.map(place => (
