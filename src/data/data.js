@@ -585,7 +585,7 @@ export default {
       interactions: [
         {
           id: 36,
-          text: "Emmanuel & Georgia",
+          text: "Akansha & Gaurav",
           question: [
             "What is happening here?",
             "Select all the matching answers"
@@ -647,7 +647,7 @@ export default {
         },
         {
           id: 43,
-          text: "Francesca & Andy",
+          text: "Sejal & Aditya",
           question: [
             "What is the situation here?",
             "Select all the matching answers"
@@ -704,11 +704,11 @@ export default {
         },
         {
           id: 47,
-          text: "Gigi & Christine",
+          text: "Shreya & Shruti",
           question: ["The girls are...?", "Select all the matching answers"],
           image: "/img/interactions/Talking",
           coordinates: [60, 43],
-          width: "30vw",
+          width: "32vw",
           requiredStars: 2,
           answers: [
             {
