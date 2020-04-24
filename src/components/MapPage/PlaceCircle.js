@@ -21,9 +21,9 @@ const PlaceCircle = ({ place, completed, setMessage }) => {
   const changeMessageIfLocked = () => {
     if (!isUnlocked)
       setMessage(
-        'This Level is under construction. We will be back soon!'
-        // `This Place is locked, but you only need ${place.requiredStars -
-        //   completed.length} more stars to unlock it!`
+        // 'This Level is under construction. We will be back soon!'
+        `This Place is locked, but you only need ${place.requiredStars -
+          completed.length} more stars to unlock it!`
       );
   };
   return (
