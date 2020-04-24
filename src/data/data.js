@@ -591,8 +591,8 @@ export default {
             "Select all the matching answers"
           ],
           image: "/img/interactions/Running",
-          coordinates: [44, 37],
-          width: "18vw",
+          coordinates: [62, 16],
+          width: "23vw",
           requiredStars: 0,
           answers: [
             {
@@ -653,8 +653,8 @@ export default {
             "Select all the matching answers"
           ],
           image: "/img/interactions/Hugging",
-          coordinates: [74, 58],
-          width: "12vw",
+          coordinates: [70, 77],
+          width: "17vw",
           requiredStars: 1,
           answers: [
             {
@@ -707,8 +707,8 @@ export default {
           text: "Gigi & Christine",
           question: ["The girls are...?", "Select all the matching answers"],
           image: "/img/interactions/Talking",
-          coordinates: [14, 43],
-          width: "28vw",
+          coordinates: [60, 43],
+          width: "30vw",
           requiredStars: 2,
           answers: [
             {
