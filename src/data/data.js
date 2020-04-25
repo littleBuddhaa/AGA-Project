@@ -413,8 +413,8 @@ export default {
             "Select all descriptions matching this situation"
           ],
           image: "/img/interactions/Classroom",
-          width: "26vw",
-          coordinates: [60, 53],
+          width: "25vw",
+          coordinates: [67, 63],
           answers: [
             {
               id: 25,
@@ -463,48 +463,48 @@ export default {
             "Can you tell what the kids are feeling?",
             "Select all the matching answers"
           ],
-          coordinates: [23,47],
-          width: "18vw",
+          coordinates: [50,43],
+          width: "21vw",
           answers: [
             {
               id: 32,
-              text: "Tony does not know the answer",
+              text: "Tarak does not know the answer",
               correct: true,
               response: "Correct! "
             },
             {
               id: 33,
-              text: "Martha is excited",
+              text: "Madhura is excited",
               correct: true,
               response: "Correct!"
             },
             {
               id: 100,
-              text: "Martha knows the answer",
+              text: "Madhura knows the answer",
               correct: true,
               response: "Correct!"
             },
             {
               id: 102,
-              text: "Martha doesn't know the answer",
+              text: "Madhura doesn't know the answer",
               correct: false,
               response: "Look again!"
             },
             {
               id: 103,
-              text: "Tony knows the answer",
+              text: "Tarak knows the answer",
               correct: false,
               response: "Look again"
             },
             {
               id: 104,
-              text: "Tony does not need any maths practice",
+              text: "Tarak does not need any maths practice",
               correct: false,
               response: "Look again!"
             },
             {
               id: 105,
-              text: "Martha needs a lot of maths practice",
+              text: "Madhura needs a lot of maths practice",
               correct: false,
               response: "Look again"
             }
@@ -580,8 +580,8 @@ export default {
       icon: "/img/places_icons/Airport_icon.svg",
       requiredStars: 6,
       image: "/places_backgrounds/Airport.png",
-      coordinates: [64, 68],
-      width: "15vw",
+      coordinates: [64, 78],
+      width: "23vw",
       interactions: [
         {
           id: 36,
