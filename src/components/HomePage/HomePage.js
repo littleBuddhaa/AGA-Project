@@ -22,7 +22,7 @@ const HomePage = ({ history, setCompleted, completed }) => {
         }} >New Game</button>
       </div>
       <HelperAvatar
-        speechText={<RouterLink to="/" label="Hi, welcome to Moodigo." />}
+        speechText={<RouterLink to="/help" label="Hi, welcome to Moodigo." />}
         timeOut={3600000}
       />
     </div>
