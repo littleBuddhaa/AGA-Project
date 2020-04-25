@@ -580,8 +580,8 @@ export default {
       icon: "/img/places_icons/Airport_icon.svg",
       requiredStars: 6,
       image: "/places_backgrounds/Airport.png",
-      coordinates: [64, 78],
-      width: "23vw",
+      coordinates: [62, 71],
+      width: "15vw",
       interactions: [
         {
           id: 36,
