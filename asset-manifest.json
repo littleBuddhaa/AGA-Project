@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/AGA-Project/static/css/main.80a423e0.chunk.css",
-    "main.js": "/AGA-Project/static/js/main.b20499f3.chunk.js",
-    "main.js.map": "/AGA-Project/static/js/main.b20499f3.chunk.js.map",
+    "main.js": "/AGA-Project/static/js/main.d4986ccc.chunk.js",
+    "main.js.map": "/AGA-Project/static/js/main.d4986ccc.chunk.js.map",
     "runtime-main.js": "/AGA-Project/static/js/runtime-main.cec6935e.js",
     "runtime-main.js.map": "/AGA-Project/static/js/runtime-main.cec6935e.js.map",
     "static/js/2.3a383def.chunk.js": "/AGA-Project/static/js/2.3a383def.chunk.js",
     "static/js/2.3a383def.chunk.js.map": "/AGA-Project/static/js/2.3a383def.chunk.js.map",
     "index.html": "/AGA-Project/index.html",
-    "precache-manifest.f9f36ef8315d5a6182917480ab2fd807.js": "/AGA-Project/precache-manifest.f9f36ef8315d5a6182917480ab2fd807.js",
+    "precache-manifest.3a872fc7dd3db405d6b69589baaeb62e.js": "/AGA-Project/precache-manifest.3a872fc7dd3db405d6b69589baaeb62e.js",
     "service-worker.js": "/AGA-Project/service-worker.js",
     "static/css/main.80a423e0.chunk.css.map": "/AGA-Project/static/css/main.80a423e0.chunk.css.map",
     "static/js/2.3a383def.chunk.js.LICENSE.txt": "/AGA-Project/static/js/2.3a383def.chunk.js.LICENSE.txt",
-    "static/media/Airport.svg": "/AGA-Project/static/media/Airport.0492ac6c.svg",
+    "static/media/Airport.svg": "/AGA-Project/static/media/Airport.6a70eb80.svg",
     "static/media/Airport.png": "/AGA-Project/static/media/Airport.d93c7db3.png",
-    "static/media/Airport_icon.svg": "/AGA-Project/static/media/Airport_icon.56a58f1d.svg",
+    "static/media/Airport_icon.svg": "/AGA-Project/static/media/Airport_icon.d820294c.svg",
     "static/media/Autsera.png": "/AGA-Project/static/media/Autsera.279bfdbf.png",
     "static/media/AutseraHelpFinal.mp4": "/AGA-Project/static/media/AutseraHelpFinal.b2e0bb8f.mp4",
     "static/media/Background_Home.svg": "/AGA-Project/static/media/Background_Home.35dc86f3.svg",
@@ -33,7 +33,7 @@
     "static/media/Hugging.png": "/AGA-Project/static/media/Hugging.ab6cbe5b.png",
     "static/media/Isolation.svg": "/AGA-Project/static/media/Isolation.e8bf0a24.svg",
     "static/media/Isolation.png": "/AGA-Project/static/media/Isolation.eb47b67b.png",
-    "static/media/Playground.svg": "/AGA-Project/static/media/Playground.860dac29.svg",
+    "static/media/Playground.svg": "/AGA-Project/static/media/Playground.3f96d427.svg",
     "static/media/Playground.png": "/AGA-Project/static/media/Playground.f0625d4b.png",
     "static/media/Playground_icon.svg": "/AGA-Project/static/media/Playground_icon.017641a4.svg",
     "static/media/Running.svg": "/AGA-Project/static/media/Running.de1e370c.svg",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.cec6935e.js",
     "static/js/2.3a383def.chunk.js",
     "static/css/main.80a423e0.chunk.css",
-    "static/js/main.b20499f3.chunk.js"
+    "static/js/main.d4986ccc.chunk.js"
   ]
 }
