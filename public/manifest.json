@@ -1,6 +1,6 @@
 {
-  "short_name": "Autsera",
-  "name": "Autsera Game",
+  "short_name": "Moodigo",
+  "name": "Moodigo Game",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/autsera192.png",
+      "src": "/map.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/autsera512.png",
+      "src": "/map.png",
       "type": "image/png",
       "sizes": "512x512"
     }
