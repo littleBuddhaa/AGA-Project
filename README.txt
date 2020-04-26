@@ -1,11 +1,15 @@
 Installation Instructions 
 ----------------------------------------------
-- Just play the game instead of hosting it 
-    - link 
+- The game is Hosted and can be played here 
+    -  https://littlebuddhaa.github.io/AGA-Project/   
 
 
-- System Requirements
+- System Configurations
 
+    For Effective Hosting 
+                    Processor (CPU):	>Intel Core i5 (sixth generation or newer) or equivalent
+                    Memory:	>4 GB RAM
+                    Operating system — Windows , Mac, Ubuntu or equivalent
 
 
 

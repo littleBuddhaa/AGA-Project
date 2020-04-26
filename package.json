@@ -1,7 +1,6 @@
 {
   "name": "moodigo",
-  "version": "1.0.0",
-  "homepage": "http://divijapalleti.github.io/AGA-Project",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.2.0",
@@ -17,9 +16,10 @@
     "b": "npm run build && serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "report-coverage": "npm test -- --coverage --watchAll=false && codecov",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "report-coverage": "npm test -- --coverage --watchAll=false && codecov"
+  
+
+  
    
   },
   "eslintConfig": {
