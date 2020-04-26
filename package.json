@@ -1,8 +1,9 @@
 {
   "name": "moodigo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
@@ -16,6 +17,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "report-coverage": "npm test -- --coverage --watchAll=false && codecov"
+  
+
+  
+   
   },
   "eslintConfig": {
     "extends": "react-app"
