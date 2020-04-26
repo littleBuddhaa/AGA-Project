@@ -2,7 +2,7 @@ import React from "react";
 import RouterLink from "../reusable/RouterLink";
 import HelperAvatar from "../reusable/HelperAvatar";
 import "./homepage.scss";
-import autseraImg from "../../assets/img/Autsera.png";
+import logo from "../../assets/img/logo.png";
 import backgroundHome from "../../assets/img/Background_Home.svg";
 
 const HomePage = ({ history, setCompleted, completed }) => {
@@ -13,7 +13,7 @@ const HomePage = ({ history, setCompleted, completed }) => {
     >
       {/* <RouterLink className="btn-help" to="/help" label="?" /> */}
       <div className="container-home">
-        <img className="img-logo" src={autseraImg} alt="Autsera Logo" />
+        <img className="img-logo" src={logo} alt=" Logo" />
         {completed.length?<RouterLink className="btn-start" to="/map" label="Continue Playing" />:null}
         
         <button  className="btn-newstart" onClick={() => {

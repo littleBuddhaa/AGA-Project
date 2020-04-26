@@ -26,7 +26,7 @@ export default {
               id: 2,
               text: "Happy",
               correct: true,
-              response: "Correct! They are having fun."
+              response: "Yes you are Correct! They are having fun."
             },
             {
               id: 3,
@@ -44,19 +44,19 @@ export default {
               id: 5,
               text: "Crying",
               correct: false,
-              response: "Look again! Can you see tears?"
+              response: "Nope! Can you see tears?"
             },
             {
               id: 6,
               text: "Gloomy",
               correct: false,
-              response: "Look again! Are they smiling?"
+              response: "Watch! Are they smiling?"
             },
             {
               id: 7,
               text: "Angry",
               correct: false,
-              response: "Look again! Are these angry faces?"
+              response: "Look again! Are they angry?"
             },
             {
               id: 8,

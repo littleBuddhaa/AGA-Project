@@ -1,6 +1,6 @@
 import React from "react";
 import "./HelperAvatar.scss";
-import helperImg from "../../assets/img/Hippo.svg";
+import helperImg from "../../assets/img/Helper.svg";
 const HelperAvatar = ({ speechText, helpText, timeOut, answerClickCount }) => {
   let [displaySomething, setdisplaySomething] = React.useState(true);
   let [showHint, setshowHint] = React.useState(false);
