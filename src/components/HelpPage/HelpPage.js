@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import RouterLink from "../reusable/RouterLink";
 import "./helppage.scss";
 import background from "../../assets/img/interactions_backgrounds/Town.svg";
-import video from "../../assets/img/AutseraHelpFinal.mp4";
+import video from "../../assets/img/Help.mp4";
 
 const HelpPage = props => {
   const [play, setPlay] = useState(true);
