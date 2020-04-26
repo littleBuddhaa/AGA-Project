@@ -2,8 +2,9 @@
   "name": "moodigo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://littleBuddhaa.github.com/AGA-Project",
+  "homepage": "https://littleBuddhaa.github.io/AGA-Project",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
