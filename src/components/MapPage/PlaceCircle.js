@@ -45,7 +45,7 @@ const PlaceCircle = ({ place, completed, setMessage }) => {
         title={place.text}
         icon={assets[place.icon]}
         label={place.text}
-        to={isUnlocked ? "/place/" + place.id : "#"}
+        to={isUnlocked ? "/AGA-Project/place/" + place.id : "#"}
       ></RouterLink>
       <Stars {...countStarsInPlace(place.id, completed)} />
     </div>

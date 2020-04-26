@@ -54,7 +54,7 @@ const InteractionCircle = ({
         title={interaction.text}
         label={interaction.text}
         icon={icon}
-        to={isUnlocked ? "/interaction/" + interaction.id : "#"}
+        to={isUnlocked ? "/AGA-Project/interaction/" + interaction.id : "#"}
       />
     </div>
   );

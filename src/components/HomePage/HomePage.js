@@ -14,15 +14,15 @@ const HomePage = ({ history, setCompleted, completed }) => {
       {/* <RouterLink className="btn-help" to="/help" label="?" /> */}
       <div className="container-home">
         <img className="img-logo" src={autseraImg} alt="Autsera Logo" />
-        {completed.length?<RouterLink className="btn-start" to="/map" label="Continue Playing" />:null}
+        {completed.length?<RouterLink className="btn-start" to="/AGA-Project/map" label="Continue Playing" />:null}
         
         <button  className="btn-newstart" onClick={() => {
           setCompleted([]);
-          history.push("/map");
+          history.push("/AGA-Project/map");
         }} >New Game</button>
       </div>
       <HelperAvatar
-        speechText={<RouterLink to="/help" label="Hi, welcome to Moodigo." />}
+        speechText={<RouterLink to="/AGA-Project/help" label="Hi, welcome to Moodigo." />}
         timeOut={3600000}
       />
     </div>

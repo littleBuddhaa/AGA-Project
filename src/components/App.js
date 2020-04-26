@@ -26,21 +26,21 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/AGA-Project"
             render={({ history }) => (
               <HomePage history={history} setCompleted={setCompleted} completed={completed}/>
             )}
           />
-          <Route exact path="/help" component={HelpPage} />
+          <Route exact path="/AGA-Project/help" component={HelpPage} />
           <Route
             exact
-            path="/map"
+            path="/AGA-Project/map"
             render={() => (
               <MapPage completed={completed} setCompleted={setCompleted} />
             )}
           />
           <Route
-            path="/place/:id"
+            path="/AGA-Project/place/:id"
             render={({ match }) => (
               <PlacePage
                 id={Number(match.params.id)}
@@ -50,7 +50,7 @@ function App() {
             )}
           />
           <Route
-            path="/interaction/:id"
+            path="/AGA-Project/interaction/:id"
             render={({ match }) => (
               <InteractionPage
                 id={Number(match.params.id)}

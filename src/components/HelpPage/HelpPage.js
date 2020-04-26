@@ -21,7 +21,7 @@ const HelpPage = props => {
   return (
     <div className="background-help" style={{backgroundImage:`url(${background})`}}>
       <br />
-      <RouterLink className="btn-back" to="/" label="Go Back" />
+      <RouterLink className="btn-back" to="/AGA-Project/" label="Go Back" />
       <div className="video-container">
         <video ref={videoEl} className="video-player" alt="Help video player" autoPlay loop >
           <source src={video} type="video/mp4" />

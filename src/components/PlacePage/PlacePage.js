@@ -35,7 +35,7 @@ const PlacePage = ({ id, completed }) => {
   return (
     <div style={style}>
       <div className="hud">
-        <RouterLink className="btn-back" to="/map" label="Go Back" />
+        <RouterLink className="btn-back" to="/AGA-Project/map" label="Go Back" />
         <span className="signpost">{placeData.text}</span>
         <span className="signpost stars-container">
           <Stars {...countStarsInPlace(id, completed)} />

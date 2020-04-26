@@ -34,7 +34,7 @@ const MapPage = ({ completed }) => {
       }}
     >
       <div className="hud">
-        <RouterLink className="btn-back" to="/" label="Go Back" />
+        <RouterLink className="btn-back" to="/AGA-Project/" label="Go Back" />
         <span className="signpost">MOODIGO</span>
       </div>
 

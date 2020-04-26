@@ -83,7 +83,7 @@ const InteractionPage = ({ id, setCompleted }) => {
   return (
     <div className="interaction-background" style={style}>
       <div className="hud">
-        <RouterLink className="btn-back" to={"/place/" + placeObj.id} label="Go Back" title="Go Back" />
+        <RouterLink className="btn-back" to={"/AGA-Project/place/" + placeObj.id} label="Go Back" title="Go Back" />
         <span className="signpost">{interactionObj.text}</span>
       </div>
       <h2 className="interaction-question">{interactionObj.question[0]}</h2>
@@ -112,7 +112,7 @@ const InteractionPage = ({ id, setCompleted }) => {
           <span>Well done!</span>
           <RouterLink
             className="btn-back completed-back"
-            to={"/place/" + placeObj.id}
+            to={"/AGA-Project/place/" + placeObj.id}
             label="Continue"
             title="Continue"
           />
